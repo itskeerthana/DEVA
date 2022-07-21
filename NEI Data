@@ -1,1 +1,4 @@
+folder <- ".C:/Sem 2/Summer INternship/shinny/learn/learn/data""
+filenames <- list.files(folder)
 
+all_files <- Reduce(rbind, lapply(filenames, read.csv))
